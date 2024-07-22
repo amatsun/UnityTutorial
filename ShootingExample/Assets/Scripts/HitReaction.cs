@@ -22,6 +22,9 @@ public class HitReaction : MonoBehaviour
     public void CallHitReaction()
     {
         string trigger = reactionTriggers[Random.Range(0, reactionTriggers.Count)];
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
+            return;
+
         animator.SetTrigger(trigger);
     }
 }
