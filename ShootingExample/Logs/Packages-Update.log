@@ -44,3 +44,18 @@ The following packages were 更新済:
   com.unity.collab-proxy をバージョン 1.13.5 から 1.17.7 へ
   com.unity.timeline をバージョン 1.6.2 から 1.6.4 へ
   com.unity.visualscripting をバージョン 1.7.6 から 1.7.8 へ
+
+=== Mon Jul 22 11:31:41 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were 追加済:
+  com.unity.ai.navigation@1.1.5
+The following packages were 更新済:
+  com.unity.collab-proxy をバージョン 1.17.7 から 2.1.0 へ
+  com.unity.ide.rider をバージョン 3.0.16 から 3.0.25 へ
+  com.unity.ide.visualstudio をバージョン 2.0.16 から 2.0.21 へ
+  com.unity.test-framework をバージョン 1.1.31 から 1.1.33 へ
+  com.unity.timeline をバージョン 1.6.4 から 1.7.5 へ
+  com.unity.visualscripting をバージョン 1.7.8 から 1.9.1 へ

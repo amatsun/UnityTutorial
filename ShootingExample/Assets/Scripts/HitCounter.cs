@@ -7,6 +7,8 @@ public class HitCounter : MonoBehaviour
 {
     [SerializeField]
     TextMeshProUGUI text;
+    [SerializeField]
+    HitReaction hitReaction;
     int hitCnt;
     // Start is called before the first frame update
     void Start()
@@ -22,5 +24,6 @@ public class HitCounter : MonoBehaviour
     {
         hitCnt++;
         text.text = $"{hitCnt} Hit!";
+        hitReaction.CallHitReaction();
     }
 }
